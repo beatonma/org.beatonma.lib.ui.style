@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Buttons
+    -->
+    <style name="Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:stateListAnimator">@anim/raise</item>
+    </style>
+
+    <style name="Button.Flat">
+        <item name="android:padding">8dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <!--<item name="android:background">@drawable/flat_button_selector</item>-->
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:textColor">@color/Accent</item>
+    </style>
+
+    <style name="Button.Flat.Dialog">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <!--<item name="android:layout_alignParentBottom">true</item>-->
+    </style>
+
+    <style name="Button.Raised">
+        <item name="android:textColor">@color/TextPrimaryLight</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <style name="DialogButtonContainer">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end|bottom</item>
+    </style>
+
+    <style name="Fab" parent="Widget.Design.FloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:tint">@color/TextPrimaryLight</item>
+    </style>
+
+    <!-- Expansion panel toggle button, or similar -->
+    <style name="Button.Panel">
+        <item name="android:minHeight">24dp</item>
+        <item name="android:minWidth">24dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/round_selector</item>
+        <item name="android:tint">@color/TextPrimary</item>
+    </style>
+
+    <style name="LabelledImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <!--
+        End of Buttons
+    -->
+</resources>

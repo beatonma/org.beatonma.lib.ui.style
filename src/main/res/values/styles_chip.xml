@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for ChipView: https://material.io/guidelines/components/chips.html -->
+    <style name="Chip" parent="Text.Primary">
+        <!--<item name="android:background">@drawable/accent_background</item>-->
+        <!--<item name="android:drawablePadding">8dp</item>-->
+        <!--<item name="android:drawableTint">@color/TextPrimaryLight</item>-->
+        <!--<item name="android:elevation">@dimen/button_elevation</item>-->
+        <!--<item name="android:gravity">center</item>-->
+        <!--<item name="android:textAlignment">gravity</item>-->
+        <!--<item name="android:textColor">@color/TextPrimaryLight</item>-->
+        <!--<item name="android:textSize">@dimen/text_size_chip</item>-->
+        <!--<item name="android:paddingStart">12dp</item>-->
+        <!--<item name="android:paddingEnd">12dp</item>-->
+        <!--<item name="android:paddingTop">8dp</item>-->
+        <!--<item name="android:paddingBottom">8dp</item>-->
+        <!--<item name="android:minWidth">@dimen/button_min_width</item>-->
+        <!--<item name="android:stateListAnimator">@anim/raise</item>-->
+        <!--<item name="android:clickable">true</item>-->
+        <!--<item name="android:focusable">true</item>-->
+        <!--<item name="android:selectable">true</item>-->
+        <!--<item name="android:layout_margin">4dp</item>-->
+    </style>
+
+    <style name="Chip.Error">
+        <!--<item name="android:background">@color/Red600</item>-->
+    </style>
+</resources>

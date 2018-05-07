@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_header_padding_top">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_margin">8dp</dimen>
+    <dimen name="card_padding_default">8dp</dimen>
+    <dimen name="card_padding_horizontal">@dimen/card_padding_default</dimen>
+    <dimen name="card_padding_top">@dimen/card_padding_default</dimen>
+    <dimen name="card_padding_bottom">@dimen/card_padding_default</dimen>
+    <dimen name="card_raise_z">4dp</dimen>
+    <dimen name="card_popup_margin">@dimen/card_margin</dimen>
+    <dimen name="card_max_width">-1px</dimen>  <!-- -1px == max_width -->
+    <dimen name="card_corner_radius">8dp</dimen>
+</resources>

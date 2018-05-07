@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Card">#222222</color>
+    <color name="Tabletop">#111111</color>
+    <color name="CardHeader">#424242</color>
+
+    <color name="TextPrimary">@color/TextPrimaryLight</color>
+    <color name="TextSecondary">@color/TextSecondaryLight</color>
+    <color name="TextPrimaryInverted">@color/TextPrimaryDark</color>
+    <color name="TextSecondaryInverted">@color/TextSecondaryDark</color>
+
+    <color name="Ripple">#10ffffff</color>
+</resources>
