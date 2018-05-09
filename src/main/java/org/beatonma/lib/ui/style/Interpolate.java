@@ -10,6 +10,7 @@ public class Interpolate {
 
     /**
      * Interpolator used for introducing content
+     * Current value: LinearOutSlowInInterpolator
      */
     public static TimeInterpolator getContentInInterpolator() {
         return getEnterInterpolator();
@@ -17,6 +18,7 @@ public class Interpolate {
 
     /**
      * Interpolator used for removing content
+     * Current value: FastOutLinearInInterpolator
      */
     public static TimeInterpolator getContentOutInterpolator() {
         return getExitInterpolator();
@@ -38,6 +40,7 @@ public class Interpolate {
 
     /**
      * Interpolator used for on-screen motion - resizing, moving, that kind of thing
+     * Current value: FastOutSlowInInterpolator
      */
     public static TimeInterpolator getMotionInterpolator() {
         return new FastOutSlowInInterpolator();
