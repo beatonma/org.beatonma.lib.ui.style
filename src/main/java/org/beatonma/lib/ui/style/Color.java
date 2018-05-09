@@ -1,7 +1,7 @@
 package org.beatonma.lib.ui.style;
 
-import android.support.annotation.FloatRange;
-import android.support.annotation.IntRange;
+import androidx.annotation.FloatRange;
+import androidx.annotation.IntRange;
 
 public class Color {
     public static int removeAlpha(final int color) {
