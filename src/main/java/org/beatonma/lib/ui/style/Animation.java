@@ -82,4 +82,15 @@ public class Animation {
         combined.playSequentially(trimmed);
         return combined;
     }
+
+    /**
+     * Linear interpolation between {@code startValue} and {@code endValue} by {@code fraction}.
+     */
+    static float lerp(float startValue, float endValue, float fraction) {
+        return startValue + (fraction * (endValue - startValue));
+    }
+
+    static int lerp(int startValue, int endValue, float fraction) {
+        return startValue + Math.round(fraction * (endValue - startValue));
+    }
 }
