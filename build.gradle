@@ -16,5 +16,8 @@ android {
 }
 
 dependencies {
+
+    implementation "com.android.support:design:$supportLibVersion"
+
     api project(":modules:log")
 }
