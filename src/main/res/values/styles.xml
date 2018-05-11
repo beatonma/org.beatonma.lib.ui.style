@@ -5,13 +5,14 @@
 
     </style>
 
-    <style name="Beatonma.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Beatonma.AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/Primary</item>
         <item name="colorPrimaryDark">@color/PrimaryDark</item>
         <item name="colorAccent">@color/Accent</item>
         <item name="android:colorPrimary">@color/Primary</item>
         <item name="android:colorPrimaryDark">@color/PrimaryDark</item>
         <item name="android:colorAccent">@color/Accent</item>
+        <item name="android:colorError">@color/Red400</item>
         <item name="android:windowBackground">@color/Tabletop</item>
         <item name="android:windowContentTransitions">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">true</item>
