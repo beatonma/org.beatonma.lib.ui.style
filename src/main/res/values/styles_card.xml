@@ -13,7 +13,7 @@
         <item name="android:paddingEnd">@dimen/card_padding_horizontal</item>
         <item name="android:elevation">@dimen/card_elevation</item>
         <item name="android:background">@drawable/card_selector</item>
-        <item name="android:stateListAnimator">@anim/raise</item>
+        <item name="android:stateListAnimator">@animator/raise</item>
         <item name="android:clickable">true</item>
         <item name="android:radius">32dp</item>
     </style>

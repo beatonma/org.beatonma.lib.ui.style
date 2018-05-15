@@ -105,7 +105,7 @@
         <item name="android:paddingRight">@dimen/list_horizontal_padding</item>
         <item name="android:elevation">@dimen/card_elevation</item>
         <item name="android:background">@drawable/card_selector</item>
-        <item name="android:stateListAnimator">@anim/raise</item>
+        <item name="android:stateListAnimator">@animator/raise</item>
         <item name="android:clickable">true</item>
     </style>
     <!--

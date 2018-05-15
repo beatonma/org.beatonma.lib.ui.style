@@ -15,7 +15,7 @@
         <!--<item name="android:paddingTop">8dp</item>-->
         <!--<item name="android:paddingBottom">8dp</item>-->
         <!--<item name="android:minWidth">@dimen/button_min_width</item>-->
-        <!--<item name="android:stateListAnimator">@anim/raise</item>-->
+        <!--<item name="android:stateListAnimator">@animator/raise</item>-->
         <!--<item name="android:clickable">true</item>-->
         <!--<item name="android:focusable">true</item>-->
         <!--<item name="android:selectable">true</item>-->
