@@ -17,13 +17,23 @@ public class Color {
     }
 
     public static String toHex(final int color) {
-        return String.format("%06X", (0xFFFFFF & color));
+        return Integer.toHexString(color);
     }
 
     public static float[] toHsv(final int color) {
         final float hsv[] = new float[3];
         android.graphics.Color.colorToHSV(color, hsv);
         return hsv;
+    }
+
+    public static String toHex(final int colors[]) {
+        final StringBuilder b = new StringBuilder();
+        for (final int c : colors) {
+            b.append("#")
+                    .append(Integer.toHexString(c))
+                    .append(',');
+        }
+        return b.toString();
     }
 
     public static float[] toHsv(@IntRange(from=0, to=255) final int red,
