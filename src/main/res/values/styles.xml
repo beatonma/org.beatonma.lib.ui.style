@@ -1,154 +1,159 @@
 <resources>
-    <attr name="ChipStyle" format="reference" />
+  <attr name="ChipStyle"
+        format="reference"/>
 
-    <style name="Beatonma">
+  <style name="Beatonma">
 
-    </style>
+  </style>
 
-    <style name="Beatonma.AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">@color/Primary</item>
-        <item name="colorPrimaryDark">@color/PrimaryDark</item>
-        <item name="colorAccent">@color/Accent</item>
-        <item name="android:colorPrimary">@color/Primary</item>
-        <item name="android:colorPrimaryDark">@color/PrimaryDark</item>
-        <item name="android:colorAccent">@color/Accent</item>
-        <item name="android:colorError">@color/Red400</item>
-        <item name="android:windowBackground">@color/Tabletop</item>
-        <item name="android:windowContentTransitions">true</item>
-        <item name="android:windowAllowEnterTransitionOverlap">true</item>
-        <item name="android:windowAllowReturnTransitionOverlap">true</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:fitsSystemWindows">false</item>
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="ChipStyle">@style/Chip</item>
-    </style>
+  <style name="Beatonma.AppTheme"
+         parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">@color/Primary</item>
+    <item name="colorPrimaryDark">@color/PrimaryDark</item>
+    <item name="colorAccent">@color/Accent</item>
+    <item name="android:colorPrimary">@color/Primary</item>
+    <item name="android:colorPrimaryDark">@color/PrimaryDark</item>
+    <item name="android:colorAccent">@color/Accent</item>
+    <item name="android:colorError">@color/Red400</item>
+    <item name="android:windowBackground">@color/Tabletop</item>
+    <item name="android:windowContentTransitions">true</item>
+    <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:fitsSystemWindows">false</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="ChipStyle">@style/Chip</item>
+  </style>
 
-    <style name="Beatonma.AppTheme.Main">
-        <item name="android:statusBarColor">@color/PrimaryDark</item>
-        <item name="android:windowTranslucentStatus">false</item>
-    </style>
+  <style name="Beatonma.AppTheme.Main">
+    <item name="android:statusBarColor">@color/PrimaryDark</item>
+    <item name="android:windowTranslucentStatus">false</item>
+  </style>
 
-    <style name="Beatonma.AppTheme.Floating">
-        <!--<item name="android:windowBackground">@color/DialogOverlay</item>-->
-        <item name="android:windowBackground">@color/Transparent</item>
-        <item name="android:fitsSystemWindows">true</item>
-        <item name="android:colorBackgroundCacheHint">@null</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <!--<item name="android:windowIsFloating">true</item>-->
-        <item name="android:windowIsTranslucent">true</item>
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowNoTitle">true</item>
-        <!--<item name="android:backgroundDimEnabled">false</item>-->
-        <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
-    </style>
-
-
-
-    <style name="RecyclerView">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:clipToPadding">false</item>
-        <item name="android:clipChildren">false</item>
-        <item name="android:paddingTop">@dimen/card_padding_top</item>
-        <item name="android:paddingBottom">@dimen/card_padding_bottom</item>
-        <item name="android:focusable">false</item>
-    </style>
-
-    <style name="RecyclerView.WithPadding">
-        <item name="android:paddingLeft">@dimen/card_padding_horizontal</item>
-        <item name="android:paddingRight">@dimen/card_padding_horizontal</item>
-    </style>
-
-    <style name="RecyclerView.WithFab">
-        <item name="android:paddingBottom">80dp</item>
-    </style>
-
-    <style name="RecyclerView.NoPadding">
-        <item name="android:paddingTop">0dp</item>
-        <item name="android:paddingBottom">0dp</item>
-    </style>
+  <style name="Beatonma.AppTheme.Floating">
+    <!--<item name="android:windowBackground">@color/DialogOverlay</item>-->
+    <item name="android:windowBackground">@color/Transparent</item>
+    <item name="android:fitsSystemWindows">true</item>
+    <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <!--<item name="android:windowIsFloating">true</item>-->
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowNoTitle">true</item>
+    <!--<item name="android:backgroundDimEnabled">false</item>-->
+    <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
+  </style>
 
 
-    <!--
-        A view that represents an item in a list
-    -->
-    <style name="Item">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingTop">@dimen/item_paddingTop</item>
-        <item name="android:paddingBottom">@dimen/item_paddingBottom</item>
-        <!--<item name="android:background">@drawable/flat_button_selector</item>-->
-        <item name="android:background">?android:selectableItemBackground</item>
-        <item name="android:gravity">center_vertical</item>
-        <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:focusable">true</item>
-        <item name="android:clickable">true</item>
-    </style>
+  <style name="RecyclerView">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:clipToPadding">false</item>
+    <item name="android:clipChildren">false</item>
+    <item name="android:paddingTop">@dimen/card_padding_top</item>
+    <item name="android:paddingBottom">@dimen/card_padding_bottom</item>
+    <item name="android:focusable">false</item>
+  </style>
 
-    <style name="Item.Padded">
-        <item name="android:paddingLeft">@dimen/list_horizontal_padding</item>
-        <item name="android:paddingRight">@dimen/list_horizontal_padding</item>
-    </style>
+  <style name="RecyclerView.WithPadding">
+    <item name="android:paddingLeft">@dimen/card_padding_horizontal</item>
+    <item name="android:paddingRight">@dimen/card_padding_horizontal</item>
+  </style>
 
-    <style name="Item.Padded.Selectable">
-        <item name="android:minHeight">@dimen/item_height_single</item>
-        <item name="android:minWidth">@dimen/button_min_width</item>
-    </style>
+  <style name="RecyclerView.WithFab">
+    <item name="android:paddingBottom">80dp</item>
+  </style>
 
-    <style name="Item.Padded.Double">
-        <item name="android:minHeight">@dimen/item_height_double</item>
-        <item name="android:minWidth">@dimen/button_min_width</item>
-    </style>
-
-    <style name="Item.Widget">
-        <item name="android:paddingLeft">@dimen/list_horizontal_padding</item>
-        <item name="android:paddingRight">@dimen/list_horizontal_padding</item>
-        <item name="android:elevation">@dimen/card_elevation</item>
-        <item name="android:background">@drawable/card_selector</item>
-        <item name="android:stateListAnimator">@animator/raise</item>
-        <item name="android:clickable">true</item>
-    </style>
-    <!--
-        End of List Items
-    -->
-
-    <style name="LoadingBar" parent="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:indeterminate">true</item>
-        <item name="android:layout_marginTop">-8dp</item>
-        <item name="android:layout_marginBottom">-8dp</item>
-        <item name="android:padding">0dp</item>
-        <item name="android:elevation">8dp</item>
-    </style>
-
-    <style name="LoadingSpinner" parent="@android:style/Widget.DeviceDefault.ProgressBar">
-        <item name="android:indeterminate">true</item>
-        <item name="android:padding">8dp</item>
-    </style>
+  <style name="RecyclerView.NoPadding">
+    <item name="android:paddingTop">0dp</item>
+    <item name="android:paddingBottom">0dp</item>
+  </style>
 
 
-    <!--
-        Timepicker
-    -->
-    <style name="TimePicker" parent="@android:style/Widget.Material.Light.TimePicker">
-        <item name="android:timePickerMode">clock</item>
-        <!--<item name="android:timePickerMode">spinner</item>-->
-        <item name="android:headerBackground">@color/Card</item>
-        <!--<item name="android:headerTimeTextAppearance">@style/TextAppearance.TimePickerDialogStyle.TimeLabel</item> &lt;!&ndash; TimePicker Time *TextAppearance* &ndash;&gt;-->
-        <item name="android:numbersTextColor">@color/TextPrimary</item>
-        <item name="android:numbersInnerTextColor">@color/TextSecondary</item>
-        <item name="android:numbersSelectorColor">@color/Card</item>
-        <item name="android:numbersBackgroundColor">@color/Tabletop</item>
-    </style>
+  <!--
+      A view that represents an item in a list
+  -->
+  <style name="Item">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:paddingTop">@dimen/item_paddingTop</item>
+    <item name="android:paddingBottom">@dimen/item_paddingBottom</item>
+    <!--<item name="android:background">@drawable/flat_button_selector</item>-->
+    <item name="android:background">?android:selectableItemBackground</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:focusable">true</item>
+    <item name="android:clickable">true</item>
+  </style>
 
-    <!--
-        SharedViewStub is a small, invisible view used only for 'faking' activity transitions
-        Use it when you want to have 'shared' animations without actually sharing a view
-        e.g. PopupActivity uses this kind of view to construct its 'bubble' animation
-    -->
-    <style name="SharedViewStub">
-        <item name="android:layout_width">1dp</item>
-        <item name="android:layout_height">1dp</item>
-    </style>
+  <style name="Item.Padded">
+    <item name="android:paddingLeft">@dimen/list_horizontal_padding</item>
+    <item name="android:paddingRight">@dimen/list_horizontal_padding</item>
+  </style>
+
+  <style name="Item.Padded.Selectable">
+    <item name="android:minHeight">@dimen/item_height_single</item>
+    <item name="android:minWidth">@dimen/button_min_width</item>
+  </style>
+
+  <style name="Item.Padded.Double">
+    <item name="android:minHeight">@dimen/item_height_double</item>
+    <item name="android:minWidth">@dimen/button_min_width</item>
+  </style>
+
+  <style name="Item.Widget">
+    <item name="android:paddingLeft">@dimen/list_horizontal_padding</item>
+    <item name="android:paddingRight">@dimen/list_horizontal_padding</item>
+    <item name="android:elevation">@dimen/card_elevation</item>
+    <item name="android:background">@drawable/card_selector</item>
+    <item name="android:stateListAnimator">@animator/raise</item>
+    <item name="android:clickable">true</item>
+  </style>
+  <!--
+      End of List Items
+  -->
+
+  <style name="LoadingBar"
+         parent="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:indeterminate">true</item>
+    <item name="android:layout_marginTop">-8dp</item>
+    <item name="android:layout_marginBottom">-8dp</item>
+    <item name="android:padding">0dp</item>
+    <item name="android:elevation">8dp</item>
+  </style>
+
+  <style name="LoadingSpinner"
+         parent="@android:style/Widget.DeviceDefault.ProgressBar">
+    <item name="android:indeterminate">true</item>
+    <item name="android:padding">8dp</item>
+  </style>
+
+
+  <!--
+      Timepicker
+  -->
+  <style name="TimePicker"
+         parent="@android:style/Widget.Material.Light.TimePicker">
+    <item name="android:timePickerMode">clock</item>
+    <!--<item name="android:timePickerMode">spinner</item>-->
+    <item name="android:headerBackground">@color/Card</item>
+    <!--<item name="android:headerTimeTextAppearance">@style/TextAppearance.TimePickerDialogStyle.TimeLabel</item> &lt;!&ndash; TimePicker Time *TextAppearance* &ndash;&gt;-->
+    <item name="android:numbersTextColor">@color/TextPrimary</item>
+    <item name="android:numbersInnerTextColor">@color/TextSecondary</item>
+    <item name="android:numbersSelectorColor">@color/Card</item>
+    <item name="android:numbersBackgroundColor">@color/Tabletop</item>
+  </style>
+
+  <!--
+      SharedViewStub is a small, invisible view used only for 'faking' activity transitions
+      Use it when you want to have 'shared' animations without actually sharing a view
+      e.g. PopupActivity uses this kind of view to construct its 'bubble' animation
+  -->
+  <style name="SharedViewStub">
+    <item name="android:layout_width">1dp</item>
+    <item name="android:layout_height">1dp</item>
+  </style>
 </resources>
