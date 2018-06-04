@@ -1,6 +1,7 @@
 <resources>
-  <attr name="ChipStyle"
-        format="reference"/>
+  <attr
+    name="ChipStyle"
+    format="reference"/>
 
   <style name="Beatonma">
 
@@ -15,14 +16,19 @@
     <item name="android:colorPrimaryDark">@color/PrimaryDark</item>
     <item name="android:colorAccent">@color/Accent</item>
     <item name="android:colorError">@color/Red400</item>
-    <item name="android:windowBackground">@color/Tabletop</item>
+
     <item name="android:windowContentTransitions">true</item>
     <item name="android:windowAllowEnterTransitionOverlap">true</item>
     <item name="android:windowAllowReturnTransitionOverlap">true</item>
-    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
     <item name="android:fitsSystemWindows">false</item>
+    <item name="android:windowBackground">@color/Tabletop</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
     <item name="android:windowTranslucentStatus">true</item>
+
+    <!-- Custom views -->
     <item name="ChipStyle">@style/Chip</item>
+    <item name="ColorPatchStyle">@style/ColorPatch</item>
   </style>
 
   <style name="Beatonma.AppTheme.Main">
@@ -31,18 +37,13 @@
   </style>
 
   <style name="Beatonma.AppTheme.Floating">
-    <!--<item name="android:windowBackground">@color/DialogOverlay</item>-->
     <item name="android:windowBackground">@color/Transparent</item>
     <item name="android:fitsSystemWindows">true</item>
-    <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
     <item name="android:colorBackgroundCacheHint">@null</item>
     <item name="android:windowContentOverlay">@null</item>
-    <!--<item name="android:windowIsFloating">true</item>-->
     <item name="android:windowIsTranslucent">true</item>
     <item name="android:windowTranslucentStatus">true</item>
     <item name="android:windowNoTitle">true</item>
-    <!--<item name="android:backgroundDimEnabled">false</item>-->
-    <!--<item name="android:windowDrawsSystemBarBackgrounds">false</item>-->
   </style>
 
 
