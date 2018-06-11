@@ -27,8 +27,8 @@
     <item name="android:windowTranslucentStatus">true</item>
 
     <!-- Custom views -->
-    <item name="ChipStyle">@style/Chip</item>
-    <item name="ColorPatchStyle">@style/ColorPatch</item>
+    <!--<item name="ChipStyle">@style/Chip</item>-->
+    <!--<item name="ColorPatchStyle">@style/ColorPatch</item>-->
   </style>
 
   <style name="Beatonma.AppTheme.Main">
