@@ -4,7 +4,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <dimen name="toolbar_elevation">4dp</dimen>
-    <dimen name="statusbar_padding">24dp</dimen>
+    <dimen name="statusbar_height">24dp</dimen>
 
     <dimen name="selected_item_margin">@dimen/card_margin</dimen>
     <dimen name="selected_item_raise_elevation">4dp</dimen>
@@ -26,8 +26,6 @@
     <dimen name="list_horizontal_padding">@dimen/item_padding_default</dimen>
     <dimen name="item_height_single">48dp</dimen>
     <dimen name="item_height_double">72dp</dimen>
-
-    <dimen name="content_separation_vertical"></dimen>
 
     <dimen name="min_dialog_width">300dp</dimen>
     <dimen name="max_dialog_width">400dp</dimen>
