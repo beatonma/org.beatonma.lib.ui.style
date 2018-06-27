@@ -17,6 +17,4 @@ android {
 
 dependencies {
     implementation "com.google.android.material:material:$versions.androidx"
-
-    api project(":modules:log")
 }
