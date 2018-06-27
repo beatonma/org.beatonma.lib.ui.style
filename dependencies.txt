@@ -1,8 +1,6 @@
-org.beatonma.lib:log:0.7.2
-
-androidx.databinding:databinding-common:3.2.0-alpha18
-androidx.databinding:databinding-runtime:3.2.0-alpha18
-androidx.databinding:databinding-adapters:3.2.0-alpha18
+androidx.databinding:databinding-common:3.2.0-beta01
+androidx.databinding:databinding-runtime:3.2.0-beta01
+androidx.databinding:databinding-adapters:3.2.0-beta01
 
 com.google.android.material:material:1.0.0-alpha3
 
