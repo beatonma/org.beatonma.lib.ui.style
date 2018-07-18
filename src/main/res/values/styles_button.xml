@@ -18,11 +18,11 @@
     <item name="android:stateListAnimator">@null</item>
     <!--<item name="android:background">@drawable/flat_button_selector</item>-->
     <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
-    <item name="android:textColor">@color/Accent</item>
+    <item name="android:textColor">?attr/colorAccent</item>
   </style>
 
   <style name="Button.Flat.Dialog">
-    <item name="android:layout_marginTop">24dp</item>
+    <item name="android:layout_marginTop">@dimen/dialog_bottom_controls_margin_top</item>
     <item name="android:layout_gravity">bottom|end</item>
     <item name="android:layout_alignParentRight">true</item>
     <item name="android:layout_alignParentEnd">true</item>

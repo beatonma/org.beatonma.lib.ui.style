@@ -32,6 +32,8 @@
     <dimen name="max_dialog_height">600dp</dimen>
     <dimen name="max_dialog_width_extra">600dp</dimen>
 
+    <dimen name="dialog_bottom_controls_margin_top">24dp</dimen>
+
     <dimen name="content_column_width">300dp</dimen>
 
     <dimen name="list_icon_size">24dp</dimen>
