@@ -22,7 +22,7 @@
   </style>
 
   <style name="Button.Flat.Dialog">
-    <item name="android:layout_marginTop">@dimen/dialog_bottom_controls_margin_top</item>
+    <item name="android:layout_marginTop">@dimen/card_bottom_controls_margin_top</item>
     <item name="android:layout_gravity">bottom|end</item>
     <item name="android:layout_alignParentRight">true</item>
     <item name="android:layout_alignParentEnd">true</item>
