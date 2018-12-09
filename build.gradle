@@ -1,3 +1,3 @@
 dependencies {
-    implementation "$module_dependencies.google.material"
+    implementation "com.google.android.material:material:$versions.androidx"
 }
